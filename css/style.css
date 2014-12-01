@@ -1,0 +1,207 @@
+/*site wide */
+body{
+    color: #373C38;
+    font-family: FontAwesome;
+}
+#main-container{
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 98%;
+}
+
+#container, .sidebar{
+    min-height: 100%;
+}
+
+.wide.row{
+    max-width: 100%;
+}
+
+.padd0{
+    padding: 0;
+}
+
+.margin0{
+    margin: 0;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.overflow-wrapper{
+    overflow: hidden;
+}
+
+.bt{
+    border-top: 1px solid rgba(55, 60, 56,0.8);
+}
+/*Headings*/
+
+h1,h2,h3,h4,h5{
+    color: #373C38;
+    font-family: FontAwesome;
+    font-weight: bold;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+
+
+/* header */
+#header{
+    background-color: #373C38;
+    color: #fff;
+}
+
+#header a{
+    font-size: 0.9rem;
+}
+
+#header .logo {
+    height: 75px;
+    max-width: 300px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left : 1rem;
+}
+
+.menu a{
+    color: #fff;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.logo {
+    background-image: url('../images/logo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-menu{
+    margin-top : 1.6rem;
+}
+
+.signup a{
+    background: #008CBA;
+    border-radius: 1rem;
+    color: #fff;
+    display: inline-block;
+    padding: 0.2rem 1.3rem;
+    transition: background-color 300ms ease-out 0s;
+}
+.signup a:hover{
+    text-decoration: none;
+    background-color: #007095;
+}
+
+.box-padding{
+    padding: 3rem 0;
+}
+
+.notification-demo img{
+   margin: 0 auto;
+   max-width: 100%;
+   width: 100%;
+}
+
+.grey-bg{
+    background-color: rgba(55, 60, 56,0.8);
+    color: #fff;
+}
+
+.grey-bg h4{
+    color: #fff;
+}
+
+.register-form-front{
+    margin: 1rem auto;
+}
+
+.register-form-front .button{
+    padding: 0.7rem;
+}
+
+.register-form-front .text-input{
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.2) !important;
+}
+/* Browser Sprint */
+
+.browser{
+    background-image: url('../images/Browser-Logo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}
+
+.chrome{
+    background-position: 0 5px;
+}
+
+.firefox{
+    background-position: 0 -75px;
+}
+
+.safari{
+    background-position: 0 -155px;
+}
+
+.opera{
+    background-position: 0 -240px;
+}
+
+.browser-logo{
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.plus, .text{
+    display: inline-block;
+    height: 80px;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.text{
+    width: 120px;
+}
+
+.text h3{
+    font-weight: normal;
+    margin: -20 0 0 0;
+    padding: 0;
+}
+
+.text p {
+    margin:0;
+    padding: 0;
+}
+
+/* pricing */
+
+.pricing-table{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.price-box li{
+    display: 
+}
