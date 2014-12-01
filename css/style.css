@@ -1,7 +1,7 @@
 /*site wide */
-body{
+*{
     color: #373C38;
-    font-family: FontAwesome;
+    font-family: FontAwesome !important;
 }
 #main-container{
     max-width: 1920px;
@@ -40,6 +40,9 @@ body{
 .bt{
     border-top: 1px solid rgba(55, 60, 56,0.8);
 }
+.br-f{
+    border: 1px solid rgba(55, 60, 56,0.1);
+}
 /*Headings*/
 
 h1,h2,h3,h4,h5{
@@ -59,7 +62,7 @@ h1,h2,h3,h4,h5{
     color: #fff;
 }
 
-#header a{
+#header a,#footer a{
     font-size: 0.9rem;
 }
 
@@ -168,26 +171,24 @@ h1,h2,h3,h4,h5{
 }
 
 .browser-logo{
-    height: 80px;
-    overflow: hidden;
-    margin-bottom: 1rem;
+    height: 100px;
+    margin-bottom: 0rem;
+}
+
+.browser.inactive{
+    opacity: 0.4;   
 }
 
 .plus, .text{
     display: inline-block;
-    height: 80px;
+    height: 90px;
     vertical-align: middle;
     width: 20px;
 }
 
 .text{
-    width: 120px;
-}
-
-.text h3{
-    font-weight: normal;
-    margin: -20 0 0 0;
-    padding: 0;
+    width: 200px;
+    margin: -60 0 0 0;
 }
 
 .text p {
@@ -204,4 +205,15 @@ h1,h2,h3,h4,h5{
 
 .price-box li{
     display: 
+}
+
+/* Footer */
+
+#footer{
+    background-color: #373C38;    
+    padding-top: 1.5em;
+}
+
+#footer p{
+    color: #fff !important;
 }
