@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5{
 }
 
 .menu a:hover{
-    text-decoration: underline;
+    border-bottom: 1px solid #fff;
 }
 
 .logo {
@@ -106,7 +106,7 @@ h1,h2,h3,h4,h5{
     transition: background-color 300ms ease-out 0s;
 }
 .signup a:hover{
-    text-decoration: none;
+    border:none;
     background-color: #007095;
 }
 
@@ -130,7 +130,7 @@ h1,h2,h3,h4,h5{
 }
 
 .register-form-front{
-    margin: 1rem auto;
+    margin: 1rem auto 5em;
 }
 
 .register-form-front .button{
@@ -192,7 +192,7 @@ h1,h2,h3,h4,h5{
 }
 
 .text p {
-    margin:0;
+    margin-top: -3.4rem;
     padding: 0;
 }
 

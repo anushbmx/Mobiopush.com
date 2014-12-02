@@ -1,65 +1,8 @@
-<html lang="en-US" itemtype="http://schema.org/WebPage" dir="ltr">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-	<meta http-equiv="content-type" content="text/html;" />
-	<meta name="robots" content="index,follow" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<title>Mobiopush</title>
-	<meta name="description" content="Mobiopush enables websites to send push notifications"/>
-
-	<!-- Open Graph -->
-	<meta property="og:title" content="Mobiopush" />
-	<meta property="og:image" content="" />
-	<meta property="og:site_name" content="Mobiopush" />
-	<meta property="og:description" content="Mobiopush enables websites to send push notifications"/>
-	<meta property="og:type" content="article">
-
-	<!-- Twitter -->
-	<meta name="twitter:title" content="Mobiopush" />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:site" content="@mobiopush" />
-	<meta name="twitter:creator" content="@mobiopush" />
-	<meta name="twitter:domain" content="mobiopush.com" />
-    <meta name="twitter:description" content="Mobiopush enables websites to send push notifications"/>
-
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/foundation.css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/fonts.css" media="all">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="HandheldFriendly" content="true">
-</head>
-
-<body>
-	<div class="wide">
-		<div id="top"></div>  	<!-- used to bring users to top -->
-		<div id="header">
-			<div class="row">
-				<div class="small-12 medium-4 large-3 columns small-centered medium-uncentered">
-					<a href="http://mobiopush.com" class="logo"></a>
-				</div>
-				<div class="small-12 medium-8 large-5 columns main-menu">
-					<nav>
-						<ul class="menu hide-for-small-only align-right">
-							<li><a href="">How it Works</a></li>
-							<li><a href="">Pricing</a></li>
-							<li><a href="">Features</a></li>
-							<li><a href="">Support</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="small-12 medium-5 large-4 columns main-menu small-uncentered">
-					<ul class="menu align-center">
-						<li class=""><a href="">Login</a></li>
-						<li class="signup"><a href="">Signup for free</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+<?php
+	$title = "Documentation";
+	$description = "Mobiopush Documentation, Know how Push and Web Notifications work";
+	require 'include/header.php';
+?>
 		<div class="content message-box-4 bt box-padding">
 			<div class="row">
 				<div class="small-12 columns">
@@ -127,25 +70,17 @@
 				</div>
 			</div>
 		</div>
-		
-		<div id="footer">
+		<div class="content message-box-2 grey-bg hide-for-small ">
 			<div class="row">
-				<div class="small-3 medium-3 large-2 columns align-center">
-					<p>&copy; Mobiopush</p>
-				</div>
-				<div class="small-9 medium-7 large-6 columns">
-					<ul class="menu align-right">
-						<li><a href="">About</a></li>
-						<li><a href="">How it works</a></li>
-						<li><a href="">Privacy</a></li>
-						<li><a href="">Terms &amp; Conditions</a></li>
-					</ul>
-				</div>
+				<form class="register-form-front">
+					<h4 class="align-center caps">Try it for Free.....!</h4>
+					<div class="large-3 medium-4 small-12 columns"><input placeholder = "http://" class="text-input" type="text"/></div>
+					<div class="large-3 medium-4 small-12 columns"><input placeholder = "Your email address" class="text-input" type="text"/></div>
+					<div class="large-3 medium-4 small-12 columns"><input placeholder = "Choose a Password" class="text-input" type="text"/></div>
+					<div class="large-3 medium-12 small-12 columns align-center"><input class=" button radius small expand" type="submit" value="Start Sending pushes" /></div>
+				</form>
 			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-</body>
-</html>
-
+		</div>		
+<?php
+	require 'include/footer.php';
+?>
