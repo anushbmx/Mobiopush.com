@@ -1,7 +1,11 @@
 /*site wide */
 *{
-    color: #373C38;
-    font-family: FontAwesome !important;
+    color: #fff;
+    font-family: FontAwesome,Geneva,Verdana,sans-serif!important;
+}
+body{
+    background-color: rgb(14, 56, 119);
+    background-repeat: no-repeat;
 }
 #main-container{
     max-width: 1920px;
@@ -38,15 +42,24 @@
 }
 
 .bt{
-    border-top: 1px solid rgba(55, 60, 56,0.8);
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 .br-f{
     border: 1px solid rgba(55, 60, 56,0.1);
 }
+
+button, .button{
+    background-color: rgb(11, 45, 95);
+}
+
+.pricing-table .title{
+    background-color: rgb(8, 34, 71);
+}
+
 /*Headings*/
 
 h1,h2,h3,h4,h5{
-    color: #373C38;
+    color: #fff;
     font-family: FontAwesome;
     font-weight: bold;
 }
@@ -58,8 +71,7 @@ h1,h2,h3,h4,h5{
 
 /* header */
 #header{
-    background-color: #373C38;
-    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #header a,#footer a{
@@ -98,16 +110,18 @@ h1,h2,h3,h4,h5{
 }
 
 .signup a{
-    background: #008CBA;
+    background: rgba(0,0,0,0.2);
     border-radius: 1rem;
     color: #fff;
     display: inline-block;
     padding: 0.2rem 1.3rem;
+    border: 1px solid rgba(0,0,0,0);
     transition: background-color 300ms ease-out 0s;
 }
 .signup a:hover{
     border:none;
-    background-color: #007095;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
 }
 
 .box-padding{
@@ -121,7 +135,7 @@ h1,h2,h3,h4,h5{
 }
 
 .grey-bg{
-    background-color: rgba(55, 60, 56,0.8);
+    background-color: rgba(0,0,0,0.4);
     color: #fff;
 }
 
@@ -129,19 +143,43 @@ h1,h2,h3,h4,h5{
     color: #fff;
 }
 
+.white-bg{
+    background-color: rgba(255,255,255,1);
+    color: rgb(51, 61, 77) !important;
+}
+
+.white-bg h2, .white-bg p{
+    color: rgb(51, 61, 77) !important;
+}
+
+
 .register-form-front{
     margin: 1rem auto 5em;
 }
 
-.register-form-front .button{
-    padding: 0.7rem;
+.register-form-front .text-input{
+    
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.1) !important;
 }
 
-.register-form-front .text-input{
-    border-radius: 5px;
+.register-form-front .button{
+    padding: 0.6rem;
+    background: rgba(255,255,255,0.1);
     color: #fff;
-    border: 1px solid rgba(255,255,255,0.4);
-    background-color: rgba(255,255,255,0.2) !important;
+    border: 1px solid rgba(0,0,0,0);
+    transition: background-color 300ms ease-out 0s;
+}
+.register-form-front .button:hover{
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: background-color 300ms ease-out 0s;
+}
+
+.message-box-1{
+    background-image: linear-gradient(to bottom, rgb(14, 56, 119), rgb(43, 113, 177));
+   
 }
 /* Browser Sprint */
 
@@ -210,10 +248,11 @@ h1,h2,h3,h4,h5{
 /* Footer */
 
 #footer{
-    background-color: #373C38;    
+    border-top:1px solid rgb(21, 48, 84);    
     padding-top: 1.5em;
+    background-color: #fff;
 }
 
-#footer p{
-    color: #fff !important;
+#footer a, #footer p{
+    color: #000;
 }

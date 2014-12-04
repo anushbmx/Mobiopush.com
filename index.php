@@ -1,8 +1,18 @@
 <?php
 	$title = "Mobiopush";
-	$description = "Mobiopush provides both Web and Push Notifications services for websites, to re-engage users."
+	$description = "Mobiopush provides both Web and Push Notifications services for websites, to re-engage users.";
 	require 'include/header.php';
 ?>
+		<div class="content message-box-1 box-padding">
+			<div class="small-12 medium-10 large-7 columns small-centered align-center">
+				<h1>Notifications for Websites</h1>
+				<p>Web notifications had outperformed email marketting with opt-in rate upto 25%</p>
+			</div>
+			<div class="small-10 medium-8 large-6 columns small-centered  notification-demo">
+				<img src="images/PC-Notification.png">
+
+			</div>
+		</div>
 		<div class="content message-box-2 grey-bg hide-for-small ">
 			<div class="row">
 				<form class="register-form-front">
@@ -14,7 +24,7 @@
 				</form>
 			</div>
 		</div>
-		<div class="content message-box-3 bt box-padding">
+		<div class="content message-box-3 bt box-padding white-bg">
 			<div class="row">
 				<div class="small-12 medium-6 large-6 columns small-centered medium-uncentered align-center">
 					<h2>Web Notification</h2>
@@ -24,7 +34,7 @@
 						<div class="browser safari"></div>
 						<div class="browser opera"></div>
 					</div>
-					<p>Can be used to re-engage live users in website.</p>
+					<p>Re-engage your live users.</p>
 				</div>
 				<div class="small-12 medium-6 large-6 columns small-centered medium-uncentered align-center">
 					<h2>Push Notification</h2>
@@ -37,12 +47,12 @@
 							<p>Coming Soon</p>
 						</div>
 					</div>
-					<p>Can be used to re-engage live &amp; Passive users.</p>
+					<p>Re-engage live &amp; Passive users.</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="content message-box-4 bt box-padding">
+	<div class="content message-box-4 bt box-padding white-bg">
 		<div class="row">
 			<h2 class="align-center">Pricing</h2>
 			<p class="align-center ">All Premium plans include 14 Days free trail on signups. No Credit card required for Free plans and for trial's.</p>

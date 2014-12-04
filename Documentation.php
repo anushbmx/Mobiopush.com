@@ -3,7 +3,7 @@
 	$description = "Mobiopush Documentation, Know how Push and Web Notifications work";
 	require 'include/header.php';
 ?>
-		<div class="content message-box-4 bt box-padding">
+		<div class="content message-box-4 bt box-padding white-bg">
 			<div class="row">
 				<div class="small-12 columns">
 					<h2>Mobiopush Documentation</h2>

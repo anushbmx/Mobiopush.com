@@ -60,13 +60,3 @@
 				</div>
 			</div>
 		</div>
-		<div class="content message-box-1 box-padding">
-			<div class="small-12 medium-10 large-7 columns small-centered align-center">
-				<h1>Better User Engagement</h1>
-				<p>Web notifications had outperformed email marketting with opt-in rate upto 25%</p>
-			</div>
-			<div class="small-10 medium-8 large-6 columns small-centered  notification-demo">
-				<img src="images/PC-Notification.png">
-
-			</div>
-		</div>

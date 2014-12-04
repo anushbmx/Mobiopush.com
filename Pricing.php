@@ -1,6 +1,6 @@
 <?php
 	$title = "Pricing";
-	$description = "Mobiopush pricing plans, Pricing starts from Zero USD."
+	$description = "Mobiopush pricing plans, Pricing starts from Zero USD.";
 	require 'include/header.php';
 ?>
 		<div class="content message-box-4 bt box-padding">
