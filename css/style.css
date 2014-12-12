@@ -1,11 +1,16 @@
 /*site wide */
 *{
-    color: #fff;
-    font-family: FontAwesome,Geneva,Verdana,sans-serif!important;
+    color: rgb(51, 61, 77);
+    font-family: FontAwesome,Geneva,Verdana,sans-serif !important;
 }
 body{
-    background-color: rgb(14, 56, 119);
+    background-color: #fff;
     background-repeat: no-repeat;
+    font-weight: normal;
+}
+p,ul,li,ol{
+    font-size: 0.9rem !important;
+    font-weight: normal;
 }
 #main-container{
     max-width: 1920px;
@@ -56,6 +61,20 @@ button, .button{
     background-color: rgb(8, 34, 71);
 }
 
+.icon-desc .fa{
+    color: rgb(34, 118, 196);
+    margin: 1rem auto;
+}
+
+.icon-desc h3,.icon-desc h4{
+    font-weight: normal;
+}
+
+.faq h4{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
 /*Headings*/
 
 h1,h2,h3,h4,h5{
@@ -72,6 +91,7 @@ h1,h2,h3,h4,h5{
 /* header */
 #header{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgb(14, 56, 119);
 }
 
 #header a,#footer a{
@@ -120,8 +140,21 @@ h1,h2,h3,h4,h5{
 }
 .signup a:hover{
     border:none;
-    background: rgba(0,0,0,0.1);
+    background: rgb(34, 118, 196);
     border: 1px solid rgba(255,255,255,0.1);
+}
+
+.docoumentation, button, .button{
+    background: #fff;
+    color: rgb(51, 61, 77);
+    border: 1px solid rgba(0,0,0,0.2);
+    transition: background-color 300ms ease-out 0s;
+}
+
+.docoumentation:hover, button:hover, .button:hover{
+    background: rgb(34, 118, 196);
+    border: 1px solid rgba(0,0,0,0.2);
+    transition: background-color 300ms ease-out 0s;
 }
 
 .box-padding{
@@ -135,7 +168,7 @@ h1,h2,h3,h4,h5{
 }
 
 .grey-bg{
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgb(14, 56, 119);
     color: #fff;
 }
 
@@ -148,7 +181,7 @@ h1,h2,h3,h4,h5{
     color: rgb(51, 61, 77) !important;
 }
 
-.white-bg h2, .white-bg p{
+.white-bg h2, .white-bg p ,.white-bg h3, .white-bg h4{
     color: rgb(51, 61, 77) !important;
 }
 
@@ -172,14 +205,18 @@ h1,h2,h3,h4,h5{
     transition: background-color 300ms ease-out 0s;
 }
 .register-form-front .button:hover{
-    background: rgba(0,0,0,0.1);
+    background: rgb(34, 118, 196);
     border: 1px solid rgba(255,255,255,0.1);
     transition: background-color 300ms ease-out 0s;
 }
 
 .message-box-1{
-    background-image: linear-gradient(to bottom, rgb(14, 56, 119), rgb(43, 113, 177));
-   
+    background-color: rgb(14, 56, 119);
+    background-image: linear-gradient(to bottom, rgb(14, 56, 119), rgb(43, 113, 177));  
+}
+
+.message-box-1 p{
+    color: #fff !important;
 }
 /* Browser Sprint */
 
@@ -248,11 +285,11 @@ h1,h2,h3,h4,h5{
 /* Footer */
 
 #footer{
-    border-top:1px solid rgb(21, 48, 84);    
+    border-top:1px solid rgba(0,0,0,0.1);    
     padding-top: 1.5em;
     background-color: #fff;
 }
 
 #footer a, #footer p{
-    color: #000;
+    color: rgb(51, 61, 77);
 }

@@ -1,3 +1,15 @@
+<?php
+	if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip'))
+		ob_start("ob_gzhandler");
+	else 
+		ob_start(); 
+    
+    $offset = 60 * 60;
+    $expire = "expires: " . gmdate ("D, d M Y H:i:s", time() + $offset) . " GMT";
+    header ($expire);
+
+	date_default_timezone_set('GMT');
+?>
 <html lang="en-US" itemtype="http://schema.org/WebPage" dir="ltr">
 <head>
 	<meta charset="utf-8" />
@@ -29,8 +41,9 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/foundation.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/fonts.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/default.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="all">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="HandheldFriendly" content="true">
 </head>
@@ -47,15 +60,15 @@
 						<ul class="menu hide-for-small-only align-right">
 							<li><a href="Documentation.php">Documentation</a></li>
 							<li><a href="Pricing.php">Pricing</a></li>
-							<li><a href="">Features</a></li>
-							<li><a href="">Support</a></li>
+							<li><a href="Features.php">Features</a></li>
+							<li><a href="Contact.php">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="small-12 medium-5 large-4 columns main-menu small-uncentered">
 					<ul class="menu align-center">
-						<li class=""><a href="">Login</a></li>
-						<li class="signup"><a href="">Signup for free</a></li>
+						<li class=""><a href="https://mobiopush.com/Dashboard">Login</a></li>
+						<li class="signup"><a href="https://mobiopush.com/Dashboard/Register.php">Signup for free</a></li>
 					</ul>
 				</div>
 			</div>

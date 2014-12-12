@@ -1,9 +1,9 @@
 <?php
 	$title = "Terms and Conditions";
-	$description = "Mobiopush Terms and Conditions for use";
+	$description = "Mobiopush Privacy policies";
 	require 'include/header.php';
 ?>
-		<div class="content message-box-4 bt box-padding">
+		<div class="content message-box-4 bt box-padding white-bg">
 			<div class="row">
 				<div class="small-12 columns">
 					<h2>Mobiopush Privacy Policy</h2>
@@ -52,7 +52,7 @@
 
 					<p>If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at: </p>
 					<p>
-					<strong>MobioPush</strong> mobiopush.com<br/>
+					<h3>MobioPush</h3> (mobiopush.com)<br/>
 					<strong>MobioGlobal</strong><br/>
 					startupvillage
 					kinfra infopark<br/>
@@ -66,17 +66,6 @@
 					</div>
 			</div>
 		</div>
-		<div class="content message-box-2 grey-bg hide-for-small ">
-			<div class="row">
-				<form class="register-form-front">
-					<h4 class="align-center caps">Try it for Free.....!</h4>
-					<div class="large-3 medium-4 small-12 columns"><input placeholder = "http://" class="text-input" type="text"/></div>
-					<div class="large-3 medium-4 small-12 columns"><input placeholder = "Your email address" class="text-input" type="text"/></div>
-					<div class="large-3 medium-4 small-12 columns"><input placeholder = "Choose a Password" class="text-input" type="text"/></div>
-					<div class="large-3 medium-12 small-12 columns align-center"><input class=" button radius small expand" type="submit" value="Start Sending pushes" /></div>
-				</form>
-			</div>
-		</div>		
 <?php
 	require 'include/footer.php';
 ?>
